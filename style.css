@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+/*--- Google Fonts ---*/
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+
+    background: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*--- Contenitore ---*/
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 105px;
+    width: 1200px;
+    height: 850px;
+
+    border-radius: 10px;
+}
+
+.container h1{
+    color: rgb(31, 241, 3);
+}
+
+.container div input{
+    margin: 0;
+    display: inline-block;
+}
+
+/*--- Barra verde in alto ---*/
+.container nav{
+    background-color: rgb(31, 241, 3);
+    
+    height: 40px;
+    border-radius: 3px;
+    
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+
+/*--- Liste manopattini e stato batteria ---*/
+.lista-monopattini{
+    padding: 20px;
+    text-align: left;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.lista-monopattini p{
+    font-size: 13px;
+    padding: 2px;
+}
+
+/*--- Stato batterie ---*/
+.batteria1{
+    background-color: rgb(253, 174, 3);
+    margin: 0;
+    padding: 5px;
+    width: 300px;
+    height: 20px;
+    
+    border-radius: 3px;
+    text-align: left;
+}
+
+.batteria2{
+    background-color: rgb(52, 201, 14);
+    margin: 0;
+    padding: 5px;
+    width: 450px;
+    height: 20px;
+    
+    border-radius: 3px;
+    text-align: left;
+}
+
+.batteria3{
+    background-color: rgb(216, 11, 11);
+    margin: 0;
+    padding: 5px;
+    width: 150px;
+    height: 20px;
+    
+    border-radius: 3px;
+    text-align: left;
+}
